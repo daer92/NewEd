@@ -1,4 +1,4 @@
 [
-  "LoginMercaux.py::FirstLoginTest::test_incorrect_login",
-  "LoginMercaux.py::FirstLoginTest::test_login"
+  "tests/test_user_login.py::test_login",
+  "tests/test_user_login.py::test_incorrect_login"
 ]

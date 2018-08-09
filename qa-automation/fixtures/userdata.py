@@ -1,6 +1,4 @@
 
-
-
 class UserData:
     def __init__(self, username, password_key):
         self.username = username
