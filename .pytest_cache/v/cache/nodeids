@@ -1,3 +1,4 @@
 [
+  "training/LoginMercaux.py::FirstLoginTest::test_incorrect_login",
   "training/LoginMercaux.py::FirstLoginTest::test_login"
 ]
