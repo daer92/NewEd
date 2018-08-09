@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7232fee3-910a-454a-9cb8-299307354376" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/qa-automation/tests/test_user_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NewEd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewEd.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-automation/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/qa-automation/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-automation/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/qa-automation/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-automation/LoginMercaux.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-automation/User_Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa-automation/fixtures/userdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-automation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa-automation/fixtures/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa-automation/fixtures/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa-automation/fixtures/userdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa-automation/fixtures/userdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa-automation/tests/test_user_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa-automation/tests/test_user_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,13 +25,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_user_login.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_user_login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa-automation/tests/test_user_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="255">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="e#25#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_new_user.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa-automation/tests/add_new_user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +52,8 @@
       <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa-automation/fixtures/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="485">
+              <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -60,7 +68,11 @@
       </file>
       <file leaf-file-name="userdata.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa-automation/fixtures/userdata.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="percents.py" pinned="false" current-in-tab="false">
@@ -90,6 +102,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clear</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -109,8 +126,11 @@
         <option value="$PROJECT_DIR$/qa-automation/modules/methods.py" />
         <option value="$PROJECT_DIR$/qa-automation/LoginMercaux.py" />
         <option value="$PROJECT_DIR$/qa-automation/tests/User_Data.py" />
-        <option value="$PROJECT_DIR$/qa-automation/fixtures/application.py" />
         <option value="$PROJECT_DIR$/qa-automation/tests/LoginMercaux.py" />
+        <option value="$PROJECT_DIR$/qa-automation/fixtures/userdata.py" />
+        <option value="$PROJECT_DIR$/qa-automation/tests/test_user_login.py" />
+        <option value="$PROJECT_DIR$/qa-automation/tests/add_new_user.py" />
+        <option value="$PROJECT_DIR$/qa-automation/fixtures/application.py" />
       </list>
     </option>
   </component>
@@ -120,7 +140,9 @@
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -133,6 +155,23 @@
             <path>
               <item name="NewEd" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewEd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewEd" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewEd" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewEd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewEd" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_user_login.py">
+  <component name="RunManager" selected="Python tests.py.test in add_new_user.py">
     <configuration name="LoginMercaux" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewEd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,6 +252,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/qa-automation/lol.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="py.test in add_new_user.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="NewEd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qa-automation/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/qa-automation/tests/add_new_user.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="py.test in test_user_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewEd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,14 +299,15 @@
       <item itemvalue="Python tests.py.test in /Users/administrator/Documents/Education/NewEd/qa-automation/lol.py" />
       <item itemvalue="Python.LoginMercaux" />
       <item itemvalue="Python tests.py.test in test_user_login.py" />
+      <item itemvalue="Python tests.py.test in add_new_user.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in add_new_user.py" />
         <item itemvalue="Python tests.py.test in test_user_login.py" />
         <item itemvalue="Python.LoginMercaux" />
         <item itemvalue="Python tests.py.test in test_user_login.py" />
         <item itemvalue="Python tests.py.test in /Users/administrator/Documents/Education/NewEd/qa-automation/lol.py" />
-        <item itemvalue="Python tests.py.test for training.LoginMercaux.FirstLoginTest.test_login" />
       </list>
     </recent_temporary>
   </component>
@@ -271,46 +325,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_LoginMercaux_py - 2018.08.09 at 14h 54m 20s.xml">
-      <configuration name="py.test in LoginMercaux.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 29m 28s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_LoginMercaux_py - 2018.08.09 at 15h 03m 54s.xml">
-      <configuration name="py.test in LoginMercaux.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 31m 00s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_LoginMercaux_py - 2018.08.09 at 15h 16m 48s.xml">
-      <configuration name="py.test in LoginMercaux.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 32m 26s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_LoginMercaux_py - 2018.08.09 at 15h 18m 34s.xml">
-      <configuration name="py.test in LoginMercaux.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 35m 54s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_LoginMercaux_py - 2018.08.09 at 15h 19m 28s.xml">
-      <configuration name="py.test in LoginMercaux.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 37m 31s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_LoginMercaux_py - 2018.08.09 at 15h 20m 24s.xml">
-      <configuration name="py.test in LoginMercaux.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 38m 24s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_LoginMercaux_py - 2018.08.09 at 15h 21m 17s.xml">
-      <configuration name="py.test in LoginMercaux.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 41m 08s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_user_login_py - 2018.08.09 at 15h 22m 15s.xml">
-      <configuration name="py.test in test_user_login.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 42m 36s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_user_login_py - 2018.08.09 at 15h 25m 43s.xml">
-      <configuration name="py.test in test_user_login.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 43m 51s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_user_login_py - 2018.08.09 at 15h 31m 35s.xml">
-      <configuration name="py.test in test_user_login.py" configurationId="tests" />
+    <history-entry file="py_test_in_add_new_user_py - 2018.08.09 at 18h 45m 01s.xml">
+      <configuration name="py.test in add_new_user.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-910" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Event Log" order="3" sideWeight="0.29937997" side_tool="true" weight="0.24140625" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33213258" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33213258" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.21902017" />
-      <window_info active="true" anchor="right" id="Terminal" order="5" visible="true" weight="0.22734375" />
+      <window_info anchor="right" id="Terminal" order="5" visible="true" weight="0.22734375" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70062" visible="true" weight="0.24140625" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
@@ -332,7 +387,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -424,31 +479,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa-automation/fixtures/userdata.py">
+    <entry file="file://$PROJECT_DIR$/qa-automation/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/qa-automation/fixtures/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/qa-automation/fixtures/userdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa-automation/tests/test_user_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="e#25#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qa-automation/fixtures/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="485">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa-automation/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa-automation/tests/test_user_login.py">
+    <entry file="file://$PROJECT_DIR$/qa-automation/tests/add_new_user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
           <folding>
-            <element signature="e#25#69#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

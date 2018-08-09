@@ -5,15 +5,6 @@ from fixtures.userdata import UserData
 import pytest
 
 
-
-def is_alert_present(wd):
-    try:
-        wd.switch_to_alert().text
-        return True
-    except:
-        return False
-    return False
-
 @pytest.fixture
 def app(request):
     fixture = Application()
