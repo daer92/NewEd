@@ -2,6 +2,5 @@
   "LoginMercaux.py::FirstLoginTest::test_incorrect_login": true,
   "LoginMercaux.py::FirstLoginTest::test_login": true,
   "LoginMercaux.py::UntitledTestCase::test_untitled_test_case": true,
-  "lol.py::Login::test_login": true,
-  "tests/test_user_login.py::test_incorrect_login": true
+  "lol.py::Login::test_login": true
 }

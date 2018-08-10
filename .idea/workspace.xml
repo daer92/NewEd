@@ -245,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.py.test in test_user_login.py">
     <configuration name="LoginMercaux" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewEd" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -351,8 +351,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.py.test in test_add_new_user.py" />
         <item itemvalue="Python tests.py.test in test_user_login.py" />
+        <item itemvalue="Python tests.py.test in test_add_new_user.py" />
         <item itemvalue="Python.selector" />
         <item itemvalue="Python.add_new_user" />
         <item itemvalue="Python.LoginMercaux" />
